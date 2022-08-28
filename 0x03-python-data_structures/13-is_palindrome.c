@@ -1,4 +1,4 @@
-#include <lists.h>
+#include "lists.h"
 
 /**
  * reverse - reverses the second half of the list
@@ -92,7 +92,7 @@ int is_palindrome(listint_t **head)
 		{
 			middle = slow;
 			slow = slow->next;
-		} 
+		}
 
 		scn_half = slow;
 		prev_slow->next = NULL;
